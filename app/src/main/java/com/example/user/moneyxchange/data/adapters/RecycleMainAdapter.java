@@ -45,7 +45,7 @@ public class RecycleMainAdapter extends RecyclerView.Adapter<RecycleMainAdapter.
     @Override
     public void onBindViewHolder(RecycleMainAdapter.ViewHolder holder, int position) {
     mCursor.moveToPosition(position);
-
+//error in here
         Money testRow = MoneyTable.getRow(mCursor,true);
 
 
