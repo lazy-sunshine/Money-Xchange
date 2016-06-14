@@ -12,22 +12,21 @@ import ckm.simple.sql_provider.annotation.SimpleSQLTable;
 @SimpleSQLTable(table = "money", provider = "MoneyProvider")
     public class Money {
 
-        @SimpleSQLColumn("col_str")
+       @SimpleSQLColumn("col_Name")
         public String Name;
 
-    @SimpleSQLColumn("col_Varchar(320)")
+    @SimpleSQLColumn("col_email_address")
     public int email_address;
 
-    @SimpleSQLColumn("col_long")
+    @SimpleSQLColumn("col_phone")
     public int phone;
 
 
-        @SimpleSQLColumn("col_long")
+        @SimpleSQLColumn("col_amt_take")
         public int amt_take;
 
-        @SimpleSQLColumn("col_long")
+        @SimpleSQLColumn("col_amt_give")
         public int amt_give;
-
 
 
 
